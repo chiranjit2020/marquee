@@ -11,7 +11,7 @@
 .marquee {
     width: var(--marquee-width);
     height: var(--marquee-height);
-    background-color: #111;
+    background-color: #092564;
     color: #eee;
     overflow: hidden;
     position: relative;
@@ -29,12 +29,12 @@
 
 .marquee:before {
     left: 0;
-    background: linear-gradient(to right, #111 0%, transparent 100%);
+    background: linear-gradient(to right, #092564 0%, transparent 100%);
 }
 
 .marquee:after {
     right: 0;
-    background: linear-gradient(to left, #111 0%, transparent 100%);
+    background: linear-gradient(to left, #092564 0%, transparent 100%);
 }
 
 .marquee-content {
